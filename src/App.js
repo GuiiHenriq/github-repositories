@@ -21,7 +21,7 @@ class App extends Component {
   getUser = e => {
     const user = e.target.value;
 
-    const { url, client_id, client_secret, count, sort } = this.stage.github;
+    const { url, client_id, client_secret, count, sort } = this.state.github;
     axios
       .get(
         `${url}/${user}?client_id=${client_id}&client_secret=${client_secret}`

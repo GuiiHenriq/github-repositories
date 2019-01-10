@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Nav from './Nav';
+import Profile from './Profile';
 
 class App extends Component {
   constructor() {
@@ -29,21 +30,22 @@ class App extends Component {
       .then(({ data }) => this.setState({ user: data}));
   };
   render() {
-    console.log(this.state.user);
+    const { user } = this.state;
     return (
       <div className="App">
         <Nav />
 
         <div className="container">
-        <div className="card card-body">
-        <h1>Search</h1>
-        <p className="lead">Digite um Nome</p>
-        <input onChange={this.getUser} id="search" type="text" className="form-control" required />
+          <div className="card card-body">
+          <h1>Search</h1>
+          <p className="lead">Digite um Nome</p>
+          <input onChange={this.getUser} id="search" type="text" className="form-control" required />
+          </div>
+          { user.lenght !== 0 ? <Profile user={user} /> : null }
         </div>
-        </div>
-
       </div>
     );
+    // if the lenght of the user is nonzero, render the prop user
   }
 }
 

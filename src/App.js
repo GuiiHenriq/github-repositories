@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import Nav from './Nav';
 
 class App extends Component {
@@ -14,13 +15,21 @@ class App extends Component {
       },
       user: [],
       repos: []
-    }
+    };
   }
 
-  getUser = (e) => {
-    
-  }
+  getUser = e => {
+    const user = e.target.value;
+
+    const { url, client_id, client_secret, count, sort } = this.stage.github;
+    axios
+      .get(
+        `${url}/${user}?client_id=${client_id}&client_secret=${client_secret}`
+      )
+      .then(({ data }) => this.setState({ user: data}));
+  };
   render() {
+    console.log(this.state.user);
     return (
       <div className="App">
         <Nav />

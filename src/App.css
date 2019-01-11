@@ -1,3 +1,39 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+  background: #282c34;
+}
+
+.card, .list-group-item {
+  background: none !important;
+}
+
+.card h1, .card p, .list-group-item {
+  color: #fff;
+}
+
+.card h1, .card p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card input {
+  background: #4c5056;
+  border: none;
+  border-radius: 5px;
+  padding: 22px;
+  color: #fff;
+}
+
+.card input:focus {
+  background: #4c5056;
+  color: #fff;
+  border: none;
+}
+
+/* ================== */
+
 .App {
   text-align: center;
 }

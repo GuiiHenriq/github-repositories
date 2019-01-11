@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 import axios from 'axios';
 import Nav from './Nav';
 import Profile from './Profile';
@@ -62,7 +63,7 @@ class App extends Component {
         <Nav />
 
         <div className="container">
-          <div className="card card-body">
+          <div className="card border-secondary card-body">
           <h1>Search</h1>
           <p className="lead">Digite um Nome</p>
           <input onChange={this.getUser} id="search" type="text" className="form-control" required />

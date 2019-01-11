@@ -13,7 +13,7 @@ class App extends Component {
         url: "https://api.github.com/users",
         client_id: "e0774b4fc4223fe4370a",
         client_secret: "7a107581f13d49c58f7919e103d010aad9e17db5",
-        count: 7,
+        count: 300,
         sort: "created: asc"
       },
       user: [],

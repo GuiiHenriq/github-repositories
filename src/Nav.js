@@ -4,7 +4,7 @@ const Nav = () => (
   <nav className="navbar navbar-dark mb-3">
   <div className="container">
     <a href="#!" className="navbar-brand">GitHub Repositories</a>
-    <p className="navbar-brand">Guilherme Henrique</p>
+    <a href="https://github.com/GuiiHenriq" target="_blank" className="navbar-brand">Guilherme Henrique</a>
   </div>
   </nav>
 );

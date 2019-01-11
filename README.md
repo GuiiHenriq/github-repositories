@@ -1,11 +1,9 @@
 # GitHub Repositories
-> See GitHub Profiles and Repositories
+> See GitHub Profiles and Repositories ![](public/favicon.ico)
 
 This application is intended to display the repositories and profile information of all GitHub users. Consuming the GitHub API we can access this information.
 Through the search field, find the profile you want to access and the magic happens!!
 
-![](public/favicon.ico)
-  
   
 ## Installation
 

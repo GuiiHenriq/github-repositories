@@ -4,6 +4,9 @@
 This application is intended to display the repositories and profile information of all GitHub users. Consuming the GitHub API we can access this information.
 Through the search field, find the profile you want to access and the magic happens!!
 
+
+**_Attention: Make sure you have NodeJS, NPM and Git installed!_**
+
   
 ## Installation
 

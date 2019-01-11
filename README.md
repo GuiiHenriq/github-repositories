@@ -19,13 +19,13 @@ git clone https://github.com/GuiiHenriq/github-repositories.git
 Install the dependencies:
 
 ```sh
-npm install (make sure it's in the project folder)
+npm install - Make sure it's in the project folder (this process takes 30 ~ 50 seconds)
 ```
 
 Take a test:
 
 ```sh
-npm test
+npm test - If nothing appears on the console, end the action and proceed to the next step (this process takes 05 ~ 15 seconds)
 ```
 
 Start npm and run the application:

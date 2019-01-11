@@ -35,10 +35,11 @@ Start npm and run the application:
 ```sh
 npm start
 ```
-
+<br>
+<br>
 ## Use of Javascript ES6 Components
 
-> Arrow Function
+<b>Arrow Function</b>
 I used this new scope of function in order to shorten the syntax, with arrow function I do not need to bind this and with that it is also possible to simplify the scope of the function.
 
 > Stateless Component
@@ -46,7 +47,8 @@ Stateless Component was used to define reusable components, where I can define l
 
 > Class Component
 I used class components to define a state and store some information, where I can call this information through "this.state". I used this class method to display the GitHub profile information and the repositories.
-
+<br>
+<br>
 ## TEST, TEST, TEST
 
 I used the "npm test" itself to check bugs and fix any problems.

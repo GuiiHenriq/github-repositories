@@ -38,15 +38,15 @@ npm start
 
 **Arrow Function**  
   
-I used this new scope of function in order to shorten the syntax, with arrow function I do not need to bind this and with that it is also possible to simplify the scope of the function.
+> I used this new scope of function in order to shorten the syntax, with arrow function I do not need to bind this and with that it is also possible to simplify the scope of the function.
 
 **Stateless Component**  
   
-Stateless Component was used to define reusable components, where I can define local variables and facilitate scope. I used Stateless Component mainly to define the body of the project in JSX (Navbar, Profile, Repositories).
+> Stateless Component was used to define reusable components, where I can define local variables and facilitate scope. I used Stateless Component mainly to define the body of the project in JSX (Navbar, Profile, Repositories).
 
 **Class Component**  
   
-I used class components to define a state and store some information, where I can call this information through "this.state". I used this class method to display the GitHub profile information and the repositories.
+> I used class components to define a state and store some information, where I can call this information through "this.state". I used this class method to display the GitHub profile information and the repositories.
   
   
 ## TEST, TEST, TEST

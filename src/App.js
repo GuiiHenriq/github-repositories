@@ -5,6 +5,7 @@ import Nav from './Nav';
 import Profile from './Profile';
 import Repo from './Repo';
 
+// Github API Integration
 class App extends Component {
   constructor() {
     super();
@@ -21,6 +22,7 @@ class App extends Component {
     };
   }
 
+  // Function to display the Profile and Repositories
   getUser = e => {
     const user = e.target.value;
 
@@ -38,7 +40,7 @@ class App extends Component {
       .then(({ data }) => this.setState({ repos: data }));
   };
 
-  // Show Repositories
+  // JSX Show Profiles and Repositories
   renderProfile = () => {
     const { user, repos } = this.state;
 
@@ -57,6 +59,7 @@ class App extends Component {
     );
   };
 
+  // JSX search input
   render() {
     return (
       <div className="App">

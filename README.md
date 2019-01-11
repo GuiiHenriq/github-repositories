@@ -47,7 +47,7 @@ npm start
 > I used class components to define a state and store some information, where I can call this information through "this.state". I used this class method to display the GitHub profile information and the repositories.
   
   
-## TEST, TEST, TEST
+## Test, Test, Test
 
 I used the "npm test" itself to check bugs and fix any problems.
 Recommendation: Turn the "npm test" command before running the application.

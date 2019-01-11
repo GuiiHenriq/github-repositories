@@ -10,7 +10,6 @@ const Repo = ({ repo }) => (
         <span className="badge badge-primary">Stars: { repo.stargazers_count }</span>
         <span className="badge badge-secondary">Watch: { repo.watchers_count }</span>
         <span className="badge badge-success">Forks: { repo.forks_count }</span>
-        <span className="badge badge-warning">Commits: { repo.commits_count }</span>
       </div>
     </div>
   </div>

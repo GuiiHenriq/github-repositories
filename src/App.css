@@ -6,63 +6,59 @@ body {
   background: #282c34;
 }
 
-.card, .list-group-item {
-  background: none !important;
-}
-
-.card h1, .card p, .list-group-item {
-  color: #fff;
-}
-
-.card h1, .card p {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.card input {
-  background: #4c5056;
-  border: none;
-  border-radius: 5px;
-  padding: 22px;
-  color: #fff;
-}
-
-.card input:focus {
-  background: #4c5056;
-  color: #fff;
-  border: none;
-}
-
-/* ================== */
-
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.navbar {
+  background: #00bea9;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card, .list-group-item {
+  background: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+.card h1, .card p, .card a, .list-group-item {
+  font-family: 'Open Sans', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card h1, .card p, .card a, .list-group-item {
+  color: #fff;
+}
+
+.no-border {
+  border: none;
+}
+
+.card input {
+  background: #4c5056;
+  border: 0 none;
+  border-bottom: 5px solid #4c5056;
+  border-radius: 5px;
+  padding: 30px;
+  color: #e9e9e9;
+  font-size: 1.5em;
+}
+
+.card input:focus {
+  background: #4c5056;
+  color: #e9e9e9;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  border-bottom: 5px solid #00bea9;
+  outline: 0;
+}
+
+.btn-success {
+  background: #00bea9;
+  border: 0 none;
+}
+
+.btn-success:hover {
+  background: #139788;
+}
+
+.btn-success:active, .btn-success:focus {
+  border: 0 none !important;
+  background: #139788 !important;
 }

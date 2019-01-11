@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Profile = ({ user }) => (
-  <div>
+  <div className="mt-5">
 	<div className="row">
-		<div className="col-md-4">
-			<div className="card border-light" style={{width: '18rem'}}>
-				<img className="card-img-top" src={user.avatar_url} />
+		<div className="col-md-4 col-sm-12">
+			<div className="card border-secondary" style={{width: '18rem'}}>
+				<img className="card-img-top" src={user.avatar_url} alt="Profile" />
 				<ul className="list-group list-group-flush">
 					<li className="list-group-item">
 						Repositories:

@@ -63,9 +63,9 @@ class App extends Component {
         <Nav />
 
         <div className="container">
-          <div className="card border-secondary card-body">
-          <h1>Search</h1>
-          <p className="lead">Digite um Nome</p>
+          <div className="card card-body no-border">
+          <h1>Search Profile</h1>
+          <p className="lead">Enter a username and see all the profile details</p>
           <input onChange={this.getUser} id="search" type="text" className="form-control" required />
           </div>
           {this.state.user.lenght !== 0 ? this.renderProfile() : null}
